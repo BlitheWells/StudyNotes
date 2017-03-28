@@ -1,1 +1,1 @@
-# JavaNotes
+# Study Notes
