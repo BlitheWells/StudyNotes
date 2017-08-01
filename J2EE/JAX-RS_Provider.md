@@ -13,8 +13,11 @@
   This anotation define an anotation that binding filter and resource. @BindingAnotationName need to add both on filter and resource,
   then this filter will only deal with the corresponding resource.
   
-	@NamingBinding
-	@BindingAnotationName
+	@NameBinding
+	@Retention(RetentionPolicy.RUNTIME)
+	@Target({ElementType.TYPE, ElementType.METHOD})
+	public @interface BindingAnotationName {
+	}
 
 ## The order of provider called.
 1. pre-matching ContainerRequestFilters
