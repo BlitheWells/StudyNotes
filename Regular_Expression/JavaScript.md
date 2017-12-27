@@ -1,6 +1,6 @@
 - #### Match website URL 
 ```JavaScript
-var regex = /^(http(s?):)*(\/\/)([\w.\d]+)([\/?]*)(.*)$/
+var regex = /^(http(s?):)?(\/\/)([\w.\d]+)([\/?]*)(.*)$/
 var str = "http://www.github.com"
 regex.exec(str)
 str = "https://www.github.com" 
