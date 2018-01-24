@@ -1,6 +1,6 @@
 #### 需要学习的生词
-- REFUSE
-- GRID
+- REFUSE  2
+- GRID    1
 - COOL
 - ATTRACT
 - TOWER
