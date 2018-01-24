@@ -1,0 +1,13 @@
+#### 需要学习的生词
+- REFUSE
+- GRID
+- COOL
+- ATTRACT
+- TOWER
+- LOYAL
+- LABOR
+- CELERY
+- WORD
+- PURPOSE
+- OVAL
+- APOLOGY
