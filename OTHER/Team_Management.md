@@ -23,6 +23,10 @@ Try your best to give the benifits to your team members, when you thought some m
 ### Comunicate with your leader
 More comunicate with you leader, anything, show the value your team created. Always remember that Representation is more important than others.
 
+### Write down appointment
+Maybe it's none of business of team management, it's a good habit that always write down(send out with mail) the appointment with others, include the details. These details not only for business sign off, but also help you manage the work, understand requirement, also to make sure you have not missing anything before you submit/release your project.
+
+
 Representation 50%
 
 Hard Work 35%
