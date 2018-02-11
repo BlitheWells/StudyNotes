@@ -15,10 +15,10 @@ Since communicate with team members is very important, about work, their life. M
 Don't always make yourself as a leader, all of us are equal in the world, so it doesn't make sense that you feel yourself stand high above the masses. Ofcouse sometime, your team member make some mistake, the better way is have a long conversion with him or her to summary the mistake, and then remind others not make the same mistake in a meeting.
 
 ### More comunication with business
-Make sure yourself understand the business of project clearly, then you can lead the project to the right way. Don't accept requirement without evaluation.
+Comunicate with business frequently, get feedback from them and think more about the product and business. Make sure yourself understand the business of project clearly, then you can lead the project to the right way. Don't accept requirement without evaluation.
 
 ### Fight for your team members
-Try your best to give the benifits to your team members, if you think some members don't work well, you should also have problems, so don't blame you members without thinking about yourself.
+Try your best to give the benifits to your team members, when you thought some members don't work well, you should also have problems, so don't blame your members without thinking about yourself.
 
 ### Comunicate with your leader
 More comunicate with you leader, anything, show the value your team created. Always remember that Representation is more important than others.
