@@ -23,6 +23,8 @@ Try your best to give the benifits to your team members, if you think some membe
 ### Comunicate with your leader
 More comunicate with you leader, anything, show the value your team created. Always remember that Representation is more important than others.
 
-Representation
-Hard Work
-Other Advise 
+Representation 50%
+
+Hard Work 35%
+
+Other Advise 15%
