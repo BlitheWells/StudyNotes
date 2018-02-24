@@ -31,4 +31,4 @@ Representation 50%
 
 Hard Work 35%
 
-Other Advise 15%
+Other's Advise 15%
