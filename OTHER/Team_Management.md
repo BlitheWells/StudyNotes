@@ -6,7 +6,7 @@
 3. A way to comunicate with team members to check their status.
 
 ### Short talk with team members every month
-Since communicate with team members is very important, about work, their life. Maybe you can do nothing with their life, but you may know the status, somehow you will get some messages may help you to manage you team.
+Since communicate with team members is very important, about work, their life. Maybe you can do nothing with their life, but you may know the status, somehow you will get some messages may help you to manage the team.
 1. Talk about work, life or other thing, also a good opportunity to practice comunicate skill of you both.
 2. If they have any advise for you, good point, bad point.
 3. They think what's not good and what's need to improve, even about the company.
