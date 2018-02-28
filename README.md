@@ -6,3 +6,5 @@ My study notes.
 
 [J2EE 相关](https://github.com/BlitheWells/StudyNotes/tree/dev/J2EE)
 
+[一些想法](https://github.com/BlitheWells/StudyNotes/tree/dev/IDEARS)
+
