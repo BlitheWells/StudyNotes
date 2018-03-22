@@ -41,3 +41,6 @@ http {
 }
 ```
 For https, only change http://app1 to https://app1
+
+## About proxy
+https://processon.com/diagraming/5ab34e12e4b007d251125960
