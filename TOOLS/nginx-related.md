@@ -43,4 +43,5 @@ http {
 For https, only change http://app1 to https://app1
 
 ## About proxy
+![avatar](https://github.com/BlitheWells/StudyNotes/blob/dev/TOOLS/%E4%BB%A3%E7%90%86%E5%92%8C%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E5%AF%B9%E6%AF%94.png)
 https://processon.com/diagraming/5ab34e12e4b007d251125960
