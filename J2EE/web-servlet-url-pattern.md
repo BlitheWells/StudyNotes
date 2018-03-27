@@ -1,6 +1,6 @@
 As below configuration, url-pattern is "/rest/*"
 
-If controller mapping define as below, then the request url that will be resolved should be /rest/service/test
+If controller mapping define as below, then the request url that will be matched should be /rest/service/test
 
 ```java
 @RequestMapping("service")
