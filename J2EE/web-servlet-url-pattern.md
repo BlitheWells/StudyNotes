@@ -1,17 +1,19 @@
 As below configuration, url-pattern is "/rest/*"
 
-If controller mapping define as below, then the request url that will be matched should be /rest/service/test
+If controller mapping define as below, 
+then the correct request url should be /rest/rest/test (url-pattern + RequestMapping), 
+not /rest/test, RequestMapping will not be count to match url-pattern
+
+
 
 ```java
-@RequestMapping("service")
+@RequestMapping("rest")
 public class SimpleController {
-  
   @RequestMapping("test")
   public Object test() {
   }
 }
 ```
-
 ```xml
 <servlet>
   <servlet-name>aServlet</servlet-name>
@@ -27,5 +29,7 @@ public class SimpleController {
   <url-pattern>/rest/*</url-pattern>
 </servlet-mapping>
 ```
-
-#### The point is that url-pattern should not be the part of request mapping, request mapping should append to url-pattern.
+#### The point is that request url should be url-pattern + reqest-mapping-path as below:
+```
+Request url: http://hostname:port/${url-pattern}/${RequestMapping-defined-on-class}/${RequestMapping-defined-on-method}
+```
