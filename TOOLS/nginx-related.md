@@ -3,7 +3,7 @@
 nginx -c /etc/nginx/nginx.conf
 
 #### Test configuration file
-nginx -c
+nginx -t
 
 #### Reload configuration file
 nginx -s reload
