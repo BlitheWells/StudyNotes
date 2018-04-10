@@ -29,7 +29,7 @@ public class SimpleController {
   <url-pattern>/rest/*</url-pattern>
 </servlet-mapping>
 ```
-#### The point is that request url should be url-pattern + reqest-mapping-path as below:
+#### The point is that request url should be url-pattern(servlet) + request-mapping-path as below:
 ```
 Request url: http://hostname:port/${url-pattern}/${RequestMapping-defined-on-class}/${RequestMapping-defined-on-method}
 ```
