@@ -15,16 +15,16 @@
 		Set<Class<?>> classesList = reflections.getTypesAnnotatedWith(Path.class);
 		
 		for (Class<?> classes : classesList) {
-            //得到该类下面的所有方法
-            Method[] methods = classes.getDeclaredMethods();
-            System.out.println(classes.getName());
-            for (Method method : methods) {
-                //得到该类下面的Path注解
-            	Path path = method.getAnnotation(Path.class);
-                if (null != path) {
-                    System.out.println(path.value() + " | " + method.getName());
-                }
-            }
-        }
+		    //得到该类下面的所有方法
+		    Method[] methods = classes.getDeclaredMethods();
+		    System.out.println(classes.getName());
+		    for (Method method : methods) {
+			//得到该类下面的Path注解
+			Path path = method.getAnnotation(Path.class);
+			if (null != path) {
+			    System.out.println(path.value() + " | " + method.getName());
+			}
+		    }
+		}
 	}
 ```
