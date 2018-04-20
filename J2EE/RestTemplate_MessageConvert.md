@@ -21,7 +21,7 @@
 <bean name="restTemplate" class="org.springframework.web.client.RestTemplate">
 	<property name="messageConverters">
 		<list>
-      <bean class="org.springframework.http.converter.StringHttpMessageConverter" />
+      			<bean class="org.springframework.http.converter.StringHttpMessageConverter" />
 			<bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter" />
 		</list>
 	</property>
@@ -31,3 +31,6 @@
 被其他 Converter 处理时报错。
 
 暂时先探究到这里，后续可以深入理解一下 RestTemplate 对 message 的 convert 逻辑。
+
+关于Convert的一个不错的文章：
+https://www.ibm.com/developerworks/cn/web/wa-restful/index.html
