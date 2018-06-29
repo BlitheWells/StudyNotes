@@ -1,4 +1,4 @@
-#### 1. Mapper Dao 中若果有多个参数，要映射到注解中，需要在参数上添加 @Param("paramName") 注解。
+#### 1. Mapper Dao 中如果有多个参数，要映射到注解中，需要在参数上添加 @Param("paramName") 注解。
 ```java
 Example:
 @Select("select * from aTable where field1=${p1} and field2=#{p2}")
