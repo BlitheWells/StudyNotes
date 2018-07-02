@@ -22,3 +22,5 @@
     'one-var': 0
 }
 </pre>
+
+1. 配置文件 webpack.config.js 中设置host
