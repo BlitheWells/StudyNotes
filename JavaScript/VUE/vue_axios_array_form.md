@@ -27,7 +27,7 @@ qs 序列化数组请求有几种方式
   结果：a=v1&a=v2&a=v3 // 直接重复，这种是 java Spring mvc 能识别和处理的数组方式
 ```
 
-jQuery 的 ajax 请求也需要设置 traditional: true 来实现等同于第三种方式的参数序列化，traditional 的意思是不去深度序列化。深度序列化后的形式是为了转换成PHP等其他后端语言能识别的数组。
+jQuery 的 ajax 请求也需要设置 traditional: true 来实现等同于第三种方式的参数序列化，traditional 的意思是不去深度序列化。深度序列化后的形式是为了转换成 PHP 或 Ruby on Rails 等其他框架能识别的数组。
 
 #### 参考文章：
 https://www.jianshu.com/p/62546d82f380
