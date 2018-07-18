@@ -16,7 +16,8 @@
     Hello ZhangSan!
     Hello ZhangSan!
   问题原因：
-    字符串 msg 在 “msg = String.format(msg, name);” 这个行代码中已经被替换成了 “Hello ZhangSan!”， 所以在之后的循环中无法再次被格式化。
+    字符串 msg 在 “msg = String.format(msg, name);” 这个行代码中已经被替换成了 “Hello ZhangSan!”， 
+    所以在之后的循环中无法再次被格式化。
     
   解决方案：
     在循环中处理引用类型的数据要格外小心
