@@ -1,3 +1,30 @@
+#### 5. 格式字符串被修改，导致循环中的格式替换失效
+```
+问题场景：
+  String msg = "Hello %s!";
+  String[] names = ["ZhangSan", "LiSi", "WangMazi"];
+  for(String name: names) {
+      msg = String.format(msg, name);
+      System.out.println(msg);
+  }
+  期望结果：
+    Hello ZhangSan!
+    Hello LiSi!
+    Hello WangMazi!
+  实际结果：
+    Hello ZhangSan!
+    Hello ZhangSan!
+    Hello ZhangSan!
+  问题原因：
+    字符串 msg 在 “msg = String.format(msg, name);” 这个行代码中已经被替换成了 “Hello ZhangSan!”， 所以在之后的循环中无法再次被格式化。
+    
+  解决方案：
+    在循环中处理引用类型的数据要格外小心
+    1. 模板类或者模板字符串最好在外层定义成 final 类型
+    2. 循环中的使用的变量如果对内存使用不大，可以考虑在循环内部构造
+    
+```
+
 #### 4. 注意数据库返回 null 的问题
 ```
 问题场景：
