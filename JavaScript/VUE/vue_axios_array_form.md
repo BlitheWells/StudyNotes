@@ -22,7 +22,7 @@ qs 序列化数组请求有几种方式
 ```
 3. repeat 的序列化方式：
 ```javascript
-  qs.stringify({ id: ['b', 'c'] }, { arrayFormat: 'brackets' })
+  qs.stringify({ id: ['b', 'c'] }, { arrayFormat: 'repeat' })
   
   结果：a=v1&a=v2&a=v3 // 直接重复，这种是 java Spring mvc 能识别和处理的数组方式
 ```
