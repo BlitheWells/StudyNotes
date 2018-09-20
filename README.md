@@ -6,7 +6,7 @@ My study notes.
 
 [J2EE 相关](https://github.com/BlitheWells/StudyNotes/tree/dev/J2EE)
 
-J2EE Context
+J2EE Contents
 -
 - [BOOK_LIST](https://github.com/BlitheWells/StudyNotes/blob/dev/J2EE/BOOK_LIST.md)
 - [EXP_OF_BUGS](https://github.com/BlitheWells/StudyNotes/blob/dev/J2EE/EXP_OF_BUGS.md)
