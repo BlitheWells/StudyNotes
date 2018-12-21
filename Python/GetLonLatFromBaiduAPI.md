@@ -1,3 +1,4 @@
+```python
 // use "requests" to call baidu api
 import requests
 // use "json" to convert response from baidu api
@@ -22,3 +23,4 @@ while line:
     line = cityfile.readline()
 // Close file
 cityfile.close()
+```
