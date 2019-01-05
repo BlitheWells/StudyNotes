@@ -10,3 +10,7 @@
         2）即时编译（Just-In-Time compilation, JIT），即将一个方法中包含的所有字节码编译成机器码后再执行。
     前者的优势在于无需等待编译，后者的优势在于实际运行更快。
     
+>    Tips: 通过 ASMTools 可以将class字节码转为 Java 虚拟指令。通过虚拟指令可以查看 JVM 怎么执行代码，当然也可以通过查看JVM规范来了解。
+>    可参考：https://wiki.openjdk.java.net/display/CodeTools/asmtools
+>    别人编译好的 ASMTools：https://github.com/hengyunabc/hengyunabc.github.io/files/2188258/asmtools-7.0.zip
+    
