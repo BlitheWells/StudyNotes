@@ -2,7 +2,7 @@
 My study notes.
 进化成更好的人！
 
-如果你不能度量它，就无法改进它
+如果你不能度量它，就无法改进它  -- 管理学之父德鲁克
 
 [区块链 技术驱动金融](https://github.com/BlitheWells/StudyNotes/blob/dev/BITCOIN/NOTES.md)
 
