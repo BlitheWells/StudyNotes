@@ -2,7 +2,7 @@
 ```java
 Example:
 @Select("select * from aTable where field1=${p1} and field2=#{p2}")
-public aMethod(@Param("p1) String firstParam, @Param("p2") String secondParam);
+public aMethod(@Param("p1") String firstParam, @Param("p2") String secondParam);
 ```
 
 #### 2. 批量插入的写法：
