@@ -19,3 +19,10 @@
 ```
 
 4. 实例
+https://github.com/BlitheWells/StudyNotes/blob/dev/excel/vlookup-eg.png
+
+5. 进阶玩法
+```
+  1) =vlookup(p1*1, p2, p3, p4) -- 将查找的值转换为数字，解决因查找的值是字符串而查找区域是数值造成的找不到的问题。
+  2) =vlookup(p1&"*", p2, p3, p4) -- 将查找的值转为字符串，解决因查找的值是数字而查找区域是字符串造成的找不到的问题。
+```
