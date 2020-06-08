@@ -20,7 +20,7 @@
 
 4. 实例
 ```
-=VLOOKUP(A1,C1:E2,2, FALSE)
+=VLOOKUP(A2,$C$1:$E$2,2,FALSE)
 https://github.com/BlitheWells/StudyNotes/blob/dev/excel/vlookup-eg.png
 ```
 5. 进阶玩法
