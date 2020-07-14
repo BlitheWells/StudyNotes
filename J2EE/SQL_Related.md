@@ -22,3 +22,5 @@ Use "CHANGE" instead of "MODIFY" can fix this problem.
   
   InnoDB 默认使用 BTREE，适合大多数场景。
 </pre>
+
+4. show index from table 查看当前表的索引
