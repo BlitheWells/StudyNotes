@@ -1,14 +1,14 @@
 <pre>
-GenerateAllSetter
+GenerateAllSetter -- generate set method when use POJO
 GenerateO2O
-GsonFormat
+GsonFormat -- Generate POJO from json string 
 pojo to json
 json to pojo with lombok
 String Manipulation
 .ignore
 lombok
-Maven Helper
-VisualVM Launcher
+Maven Helper  -- jar 冲突
+VisualVM Launcher -- 当前JVM内存
 MyBatisCodeHelperPro
 mybatis datasource
 mybatis plugin
@@ -19,9 +19,9 @@ Alibaba Java Coding Guidelines
 CamelCase 
 Properties to YAML Converter
 google-java-format 
-save actions
-MyBatis Log Plugin
-Restfultookit
+save actions -- 保存时需要做什么操作
+MyBatis Log Plugin -- 打印SQL语句，直接可用的
+Restfultookit -- 查找Restful定义
 Grep Console
 String Manipulation
 FindBugs-IDEA
