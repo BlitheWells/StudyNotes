@@ -1,0 +1,49 @@
+maven build 中加入以下插件
+```xml
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-enforcer-plugin</artifactId>
+				<version>1.4.1</version>
+				<executions>
+					<execution>
+						<id>enforce-ban-duplicate-classes</id>
+						<goals>
+							<goal>enforce</goal>
+						</goals>
+						<configuration>
+							<rules>
+								<banDuplicateClasses>
+									<ignoreClasses>
+										<ignoreClass>javax.*</ignoreClass>
+										<ignoreClass>org.junit.*</ignoreClass>
+										<ingoreClass>org.aspectj.*</ingoreClass>
+										<ingoreClass>org.jboss.netty.*</ingoreClass>
+										<ingoreClass>org.apache.juli.*</ingoreClass>
+										<ingoreClass>org.apache.commons.logging.*</ingoreClass>
+										<ingoreClass>org.apache.log4j.*</ingoreClass>
+										<ingoreClass>org.objectweb.asm.*</ingoreClass>
+										<ingoreClass>org.parboiled.*</ingoreClass>
+										<ingoreClass>org.apache.xmlbeans.xml.stream.*</ingoreClass>
+										<ingoreClass>org.json.JSONString</ingoreClass>
+										<ingoreClass>org.aopalliance.*</ingoreClass>
+										<ingoreClass>module-info</ingoreClass>
+										<ingoreClass>springfox.documentation.spring.web.json.Json</ingoreClass>
+										<ingoreClass>META-INF.versions.9.module-info</ingoreClass>
+									</ignoreClasses>
+									<findAllDuplicates>true</findAllDuplicates>
+								</banDuplicateClasses>
+							</rules>
+							<fail>true</fail>
+						</configuration>
+					</execution>
+				</executions>
+				<dependencies>
+					<dependency>
+						<groupId>org.codehaus.mojo</groupId>
+						<artifactId>extra-enforcer-rules</artifactId>
+						<version>1.0-beta-6</version>
+					</dependency>
+				</dependencies>
+			</plugin>
+    
+```
